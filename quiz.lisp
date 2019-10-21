@@ -16,3 +16,4 @@
 ;; (setf *random-state* (make-random-state t))
 ;;0から10
 ;; (setq x (random 11 *random-state*))
+ 

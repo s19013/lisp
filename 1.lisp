@@ -1,5 +1,5 @@
 ;; (print (+ 1 2))
-;; (print (- 1 2)) 
+;; (print (- 1 2))
 ;; (print (* 1 2))
 ;; (print (/ 1 2))
 ;; (print (expt 3 2))
@@ -29,7 +29,7 @@
 ;; (setq x (read))
 ;; (print x)
 
-;; (setq x '(10 20 30))  ;;x=[10 20 30] 
+;; (setq x '(10 20 30))  ;;x=[10 20 30]
 ;; (print (car x))
 ;; (print (cdr x))
 
