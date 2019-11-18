@@ -22,6 +22,8 @@
   (princ you)
   (princ "   your_sum:")
   (princ your_sum)
+  (if (> your_sum 21)
+    (burst 1))
   (princ "
 hitなら1を standなら2を入力:  ")
   (setq want (read))
@@ -127,12 +129,14 @@ hitなら1を standなら2を入力:  ")
      (princ "
 ")
      (princ "バーストしました")
+     (exit)
     )
     (
      (= name 2)
      (princ "
 ")
      (princ "相手がバーストしました")
+     (exit)
     )
   )
 )
